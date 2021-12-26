@@ -1,0 +1,3 @@
+[submodule "include/Selene"]
+	path = include/Selene
+	url = https://github.com/jeremyong/Selene.git
