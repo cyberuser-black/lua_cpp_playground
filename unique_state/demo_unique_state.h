@@ -26,7 +26,7 @@ int demo_unique_states(){
 
     // Access the variable from Lua runtime
     std::string a_string = lua_a["a"];
-    std::cout << "├───[main.cpp] a: '" << a_string << "'" << std::endl;
+    std::cout << "├───[main.cpp] a : '" << a_string << "'" << std::endl;
 
     // Create a Lua runtime for b.lua
     std::cout << "├───[main.cpp] creating Lua state 'lua_b'..." << std::endl;
